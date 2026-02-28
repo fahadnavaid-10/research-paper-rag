@@ -4,8 +4,7 @@ from typing import List,Dict,Any
 from services.rag_service import RagServices
 from fastapi.middleware.cors import CORSMiddleware
 
-#env
-#GENAI_KEY=AIzaSyCXINJDTp5tn_Fh6Ph30j1JQJ_m2pV6zE8
+
 class Query(BaseModel):
     question:str
 
